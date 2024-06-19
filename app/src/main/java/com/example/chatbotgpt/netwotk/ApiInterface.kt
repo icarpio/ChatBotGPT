@@ -1,8 +1,8 @@
-package com.example.chatbotgtp.netwotk
+package com.example.chatbotgpt.netwotk
 
-import com.example.chatbotgtp.response.ChatRequest
-import com.example.chatbotgtp.response.ChatResponse
-import com.example.chatbotgtp.utils.API_KEY
+import com.example.chatbotgpt.response.ChatRequest
+import com.example.chatbotgpt.response.ChatResponse
+import com.example.chatbotgpt.utils.API_KEY
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.Header

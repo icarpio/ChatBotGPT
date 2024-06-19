@@ -1,4 +1,4 @@
-package com.example.chatbotgtp
+package com.example.chatbotgpt
 
 import org.junit.Test
 

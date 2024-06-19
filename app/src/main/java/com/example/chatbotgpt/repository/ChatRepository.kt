@@ -1,14 +1,11 @@
-package com.example.chatbotgtp.repository
+package com.example.chatbotgpt.repository
 
 import android.util.Log
-import com.example.chatbotgtp.netwotk.ApiClient
-import com.example.chatbotgtp.response.ChatRequest
-import com.example.chatbotgtp.response.ChatResponse
-import com.example.chatbotgtp.response.Message
-import com.example.chatbotgtp.utils.MODEL_GPT
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+import com.example.chatbotgpt.netwotk.ApiClient
+import com.example.chatbotgpt.response.ChatRequest
+import com.example.chatbotgpt.response.ChatResponse
+import com.example.chatbotgpt.response.Message
+import com.example.chatbotgpt.utils.MODEL_GPT
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

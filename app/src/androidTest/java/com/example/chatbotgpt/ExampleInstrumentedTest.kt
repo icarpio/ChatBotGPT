@@ -1,4 +1,4 @@
-package com.example.chatbotgtp
+package com.example.chatbotgpt
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

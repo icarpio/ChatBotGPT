@@ -1,6 +1,6 @@
-package com.example.chatbotgtp.netwotk
+package com.example.chatbotgpt.netwotk
 
-import com.example.chatbotgtp.utils.BASE_URL
+import com.example.chatbotgpt.utils.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

@@ -1,4 +1,4 @@
-package com.example.chatbotgtp.utils
+package com.example.chatbotgpt.utils
 
 const val BASE_URL = "https://api.openai.com/v1/"
 const val MODEL_GPT = "gpt-3.5-turbo-0125"
