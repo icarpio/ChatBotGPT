@@ -3,6 +3,7 @@ package com.example.chatbotgpt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chatbotgpt.repository.ChatRepository
+import com.example.chatbotgtp.R
 
 class MainActivity : AppCompatActivity() {
 
