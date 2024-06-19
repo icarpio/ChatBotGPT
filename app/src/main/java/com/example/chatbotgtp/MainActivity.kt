@@ -5,11 +5,20 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.chatbotgtp.repository.ChatRepository
 
 class MainActivity : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        createChatCompletion("Que es Kotlin?")
     }
+}
+
+fun createChatCompletion(message:String){
+    val chatRepository = ChatRepository()
+    chatRepository.createChatCompletion(message)
+
 }
