@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.chatbotgtp"
+    namespace = "com.example.chatbotgpt"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.chatbotgtp"
+        applicationId = "com.example.chatbotgpt"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
